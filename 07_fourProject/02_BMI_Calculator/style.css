@@ -1,0 +1,7 @@
+.margin{
+    margin: 20px;
+}
+.cal{
+    display: flex;
+    justify-content: center;
+}

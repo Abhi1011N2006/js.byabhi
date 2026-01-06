@@ -1,0 +1,18 @@
+.bigbox{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.smallbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* display: block; */
+} 
+.box{
+    height: 70px;
+    width:  70px;
+    margin: 20px;
+    border: solid 1.5px;
+    border-color: black;
+}
