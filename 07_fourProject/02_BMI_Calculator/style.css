@@ -1,7 +1,10 @@
 .margin{
-    margin: 20px;
+    margin-top: 20px;
 }
-.cal{
-    display: flex;
+
+.biggerbox{
+    display: grid;
+    align-items: center;
     justify-content: center;
+    margin-top: 18vh;
 }
