@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>abhi is great</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    // setTimeout(function(){         //run once after time lap syntax : setTimeout(function , time_interval)
+    //     console.log("abhi yes")
+    // },2000)
+    const change = function(){
+        document.querySelector('h1').innerHTML = "ABC EFG HIJ";
+    }
+    const set = setTimeout(change, 2000);
+    
+    document.querySelector("#stop").addEventListener('click' , ()=>{
+        clearTimeout(set);
+        console.log("stoped");
+    })
+</script>
+</html>
